@@ -14,21 +14,21 @@ namespace prog
         
             Console.WriteLine(++a);  
             
-            Console.WriteLine(a*b*c); 
+            // Console.WriteLine(a*b*c); 
             
-            Console.WriteLine(a++);    
+            // Console.WriteLine(a++);    
             
-            Console.WriteLine(b+=a);  
+            // Console.WriteLine(b+=a);  
             
-            Console.WriteLine(b+=a*c);  
+            // Console.WriteLine(b+=a*c);  
             
-            Console.WriteLine(a++b);   //invalid
+            // Console.WriteLine(a++b);   //invalid
             
-            Console.WriteLine(Convert.ToChar(a+=2, 2/2, a*b)); 
+            // Console.WriteLine(Convert.ToChar(a+=2, 2/2, a*b)); 
             
-            Console.WriteLine(++b++);   //invalid
+            // Console.WriteLine(++b++);   //invalid
             
-            Console.WriteLine(a++ + b++); 
+            // Console.WriteLine(a++ + b++); 
         }
     }
 }
